@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    padding: 0.5rem 1rem 0.5rem 0;
+    background: linear-gradient(#111820 85%, transparent);
+}
+
+.logo {
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 4rem;
+    padding-left: 4rem;
+    background: url('../../public/logo_med.png') no-repeat center;
+    background-size: auto 100%;
+    background-color: transparent;
+    border-color: transparent;
+    color: #3a4b87;
+}
+
+.logo::after {
+    /* content: 'Movieflix' */
+    content: ''
+}

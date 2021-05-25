@@ -1,0 +1,36 @@
+.placeholder {
+    width: 8rem;
+    height: 10rem;
+    background: rgba(28, 36, 43, 0.8);
+    border: 0.5rem solid rgba(149,157, 164, 0.2);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    margin-left: -4rem;
+    margin-top: -5rem;
+}
+
+.placeholder .title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #959DA4;
+}
+
+.placeholder .logoBig {
+    background: url('../../public/logo_big.png') no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    outline: none;
+    animation: swirl 2s ease infinite;
+}
+
+@keyframes swirl {
+    from { transform: rotateZ(0deg); }
+    from { transform: rotateZ(-360deg); }
+}

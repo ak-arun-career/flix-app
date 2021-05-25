@@ -1,0 +1,17 @@
+.summaryContent {
+    font-size: 0.75rem;
+    padding: 0.2rem;
+    background: #121A23;
+    color: #787A7D;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+}
+
+.summaryContent article {
+    padding: 0.5rem;
+}
+
+.blueLabel {
+    color: #4B97C5;
+}

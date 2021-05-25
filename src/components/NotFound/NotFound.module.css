@@ -1,0 +1,6 @@
+.notFoundText {
+    color: #c4ccd3;
+    text-align: center;
+    grid-column: span 2;
+    align-self: center;
+}

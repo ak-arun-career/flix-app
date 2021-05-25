@@ -1,0 +1,40 @@
+.searchField {
+    position: relative;
+    flex-grow: 2;
+    align-self: center;
+}
+
+.searchField .iconSearch {
+    width: 1rem;
+    height: 1rem;
+    background: url('../../../public/search.png');
+    background-size: 100%;
+    border: 0;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.searchField .textField {
+    background: rgba(233,241,247, 0.4);
+    height: 2rem;
+    border-radius: 6px;
+    padding: 0.25rem;
+    transition: all 0.2s ease-in;
+    border-color: transparent;
+    width: 100%;
+}
+
+.searchField .textField:focus {
+    background: #fff;
+    outline: none;
+}
+
+.searchField .textField::placeholder {
+    visibility: hidden;
+}
+
+.searchField .textField:focus::placeholder {
+    visibility: visible;
+}
+

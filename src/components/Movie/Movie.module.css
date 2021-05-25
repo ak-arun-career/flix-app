@@ -1,0 +1,82 @@
+.tile {
+    align-self: start;
+    background: #1C242B;
+    box-shadow: 0 0 1px 0 #111820;
+    border-radius: 6px;
+    position: relative;
+    padding: 1rem 0.5rem;
+    color: #959DA4;
+    transition: all 0.5s ease;
+}
+
+.tile summary {
+    display: grid;
+    list-style: none;
+    padding: 0.2rem;
+    grid-template-areas:
+        'coverImage title title title'
+        'coverImage rating rated runtime';
+    grid-column-gap: 0.2rem;
+}
+
+.tile summary:focus {
+    outline: none;
+}
+
+.tile .summaryChevron {
+    pointer-events: none;
+    position: absolute;
+    top: 0.75em;
+    right: 1em;
+}
+
+.tile .summaryChevron .up,
+.tile[open] .summaryChevron .down {
+    display: none;
+}
+.tile .summaryChevron .down,
+.tile[open] .summaryChevron .up {
+    display: block;
+}
+
+.tile summary::-webkit-.tile-marker {
+    display: none;
+}
+
+.tile .coverImage {
+    grid-area: coverImage;
+    height: 5rem;
+    min-width: 5rem;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+.tile .title {
+    grid-area: title;
+    font-weight: bold;
+    min-width: 16rem;
+    color: #C4CCD3;
+    align-self: end;
+}
+
+.tile .subheading {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    align-self: center;
+}
+
+.tile .blueLabel {
+    color: #4B97C5;
+}
+
+.tile .rating {
+    grid-area: rating;
+}
+
+.tile .rated {
+    grid-area: rated;
+}
+
+.tile .runtime {
+    grid-area: runtime;
+}
