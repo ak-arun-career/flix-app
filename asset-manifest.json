@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/flix-app/static/css/main.98a2a802.chunk.css",
+    "main.js": "/flix-app/static/js/main.4aad216a.chunk.js",
+    "main.js.map": "/flix-app/static/js/main.4aad216a.chunk.js.map",
+    "runtime-main.js": "/flix-app/static/js/runtime-main.7a438149.js",
+    "runtime-main.js.map": "/flix-app/static/js/runtime-main.7a438149.js.map",
+    "static/js/2.e524584c.chunk.js": "/flix-app/static/js/2.e524584c.chunk.js",
+    "static/js/2.e524584c.chunk.js.map": "/flix-app/static/js/2.e524584c.chunk.js.map",
+    "index.html": "/flix-app/index.html",
+    "static/css/main.98a2a802.chunk.css.map": "/flix-app/static/css/main.98a2a802.chunk.css.map",
+    "static/js/2.e524584c.chunk.js.LICENSE.txt": "/flix-app/static/js/2.e524584c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a438149.js",
+    "static/js/2.e524584c.chunk.js",
+    "static/css/main.98a2a802.chunk.css",
+    "static/js/main.4aad216a.chunk.js"
+  ]
+}
